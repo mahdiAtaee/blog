@@ -1,0 +1,41 @@
+{
+  "name": "own_blog",
+  "version": "1.0.0",
+  "description": "blog mahdi ataee",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mahdi ataee",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@root": ".",
+    "@models": "app/models",
+    "@services": "app/services",
+    "@routes": "app/routes",
+    "@controllers": "app/controllers",
+    "@database": "database",
+    "@validators": "app/validators",
+    "@middlewares": "app/middlewares",
+    "@presenters": "app/presenters"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-mysql-session": "^2.1.7",
+    "express-session": "^1.17.2",
+    "gravatar": "^1.8.2",
+    "jalali-moment": "^3.3.11",
+    "module-alias": "^2.2.2",
+    "mysql2": "^2.3.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

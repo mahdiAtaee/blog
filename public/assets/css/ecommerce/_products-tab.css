@@ -1,0 +1,16 @@
+.products-tab{
+    padding: 0;
+    border-bottom: 1px solid #b5b3b3;
+}
+
+.products-tab .nav-link{
+    color: #444;
+    font-size: 0.8rem;
+    border-bottom: none;
+}
+
+.products-tab .nav-link.active{
+    color: #444;
+    border-top: 2px solid red;
+    font-size: 0.8rem;
+}

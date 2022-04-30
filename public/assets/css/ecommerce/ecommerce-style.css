@@ -1,0 +1,132 @@
+@import url(./_top-nav.css);
+@import url(./modal.css);
+@import url(./_slider.css);
+@import url(./_shipping.css);
+@import url(./_cat.css);
+@import url(./_tab.css);
+@import url(./_offer.css);
+@import url(./_products-carousel.css);
+@import url(./_footer.css);
+@import url(./_productPage_product.css);
+@import url(./_products-tab.css);
+@import url(./_review-section.css);
+@import url(./_specific.css);
+@import url(./_product-discrib.css);
+
+@font-face {
+    font-family: vazir;
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('Vazir-opentype'),
+        url('../fonts/Vazir.woff') format('woff'),
+        url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+}
+
+body {
+    font-family: vazir;
+}
+
+.input-group-append .dropdown-toggle {
+    padding: 0.6rem 0.75rem !important;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-col-md-3 {
+    flex: 0 0 24.3%;
+    max-width: 24.3%;
+    height: 339px;
+}
+
+.custom-col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 339px;
+}
+
+.custom-col-md-X {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.slider-offer-title {
+    text-align: right;
+    font-size: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.slider-offer-title span {
+    font-size: 1.1rem;
+    color: #ff0000;
+}
+
+.brands-header{
+    padding: 2rem;
+}
+
+.breadcrumb{
+    background: white;
+    margin: 1rem 1rem 0;
+    font-size: 0.8rem;
+}
+
+.breadcrumb .breadcrumb-item a{
+    color: #747474;
+}
+@media (max-width:360px) {
+    .plus ul,
+    .minus ul{
+        padding: 0 !important;
+    }
+}
+
+@media (max-width:768px) {
+    .mt-cmd-5 {
+        margin-top: 1rem;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 998px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .custom-col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .custom-col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .custom-col-md-X {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .custom-tab .nav-item .nav-link {
+        font-size: 0.7rem;
+    }
+}
+

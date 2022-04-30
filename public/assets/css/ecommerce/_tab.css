@@ -1,0 +1,12 @@
+.custom-tabs .nav-item.show .nav-link, .custom-tabs .nav-link.active {
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+}
+.custom-tabs .nav-link {
+    border:none;
+    border-radius: 0;
+    color: rgb(61, 55, 55);
+    font-size: 14px;
+}

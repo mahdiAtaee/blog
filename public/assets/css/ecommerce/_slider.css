@@ -1,0 +1,40 @@
+.slider-title h6{
+    background: rgba(255,255, 255,0.5);
+    color: #020202;
+}
+.slider-title p{
+    background-color: rgb(255, 0, 0);
+    font-size: 14px;
+}
+.carousel-indicators .active{
+    background: #e75d29 !important;
+}
+
+.flexible{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.text-over,.text-over-top{
+    position: relative;
+}
+.text-over-top+p{
+    position: absolute;
+    top: 35%;
+    padding:0.4rem ;
+    background: #fff;
+    font-size: 14px;
+}
+.text-over+p{
+    position: absolute;
+    bottom: 8%;
+    padding:0.4rem ;
+    background: #fff;
+    font-size: 14px;
+}
+
+.height-165{
+    height: 165px !important;
+}

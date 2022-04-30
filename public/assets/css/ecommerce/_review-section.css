@@ -1,0 +1,44 @@
+.review-title {
+    padding: 1rem;
+    color: #555555;
+}
+
+.review-body p {
+    padding: 0 2rem;
+    font-size: 0.8rem;
+    color: #5c5c5c;
+}
+
+.review-rate .rate-elem {
+    margin: 0.8rem 0;
+}
+
+.review-rate .rate-elem p {
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+}
+
+.review-body ul li{
+    list-style: none;
+    border-right: 1px solid #b5b5b5;
+    padding: 0 0 2rem 0;
+    position: relative;
+}
+
+
+.review-body ul li p{
+    margin: 0;
+}
+
+.review-body ul li .fa-dot-circle{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    color: #b5b5b5;
+}
+
+.product-img-wrapper{
+    max-width: 500px;
+    padding: 2rem;
+    margin: 0 auto;
+}

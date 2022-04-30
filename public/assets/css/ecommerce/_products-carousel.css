@@ -1,0 +1,86 @@
+.img-carousel {
+    width: 100px !important;
+    max-width: 250px;
+}
+
+.product-card {
+    padding: 1rem;
+    width: 180px;
+    height: 280px;
+}
+
+.product-link {
+    text-decoration: none;
+    color: #605f5f;
+}
+
+.product-link:hover {
+    text-decoration: none;
+    color: #605f5f;
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.product-card .product-body {
+    height: 140px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.product-carousel-title {
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.product-carousel-price {
+    font-size: 0.8rem;
+    text-align: left;
+    align-self: flex-end;
+}
+
+.product-price-wrapper {
+    align-self: flex-end;
+}
+
+.product-carousel-price-offer {
+    margin: 0;
+}
+
+.product-carousel-price-offer s {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.owl-prev span {
+    font-size: 2rem;
+    background: #fff;
+    padding: 0.8rem;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    border-radius: 5px;
+    box-shadow: -4px 0px 10px 2px #d1d1d1;
+}
+
+.owl-next span {
+    font-size: 2rem;
+    background: #fff;
+    padding: 0.8rem;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    border-radius: 5px;
+    box-shadow: 4px 0px 10px 2px #d1d1d1;
+}
+
+.owl-prev:hover span,
+.owl-next:hover span {
+    color: #605f5f;
+}

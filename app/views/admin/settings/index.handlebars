@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="box">
+                <div class="box-head">
+                    <h3 class="title">تنظیمات</h3>
+                </div>
+                <div class="box-body">
+                    {{#if errors}}
+                    <div class="alert alert-solid-danger alert-dismissible fade show" role="alert"
+                        style="position: absolute;top: 10%;left: 50%;transform: translate(-50%,-50%)">
+                        {{#each errors}}
+                        <p>{{this}}</p>
+                        {{/each}}
+                    </div>
+                    {{/if}}
+
+                    {{#if success}}
+                    <div class="alert alert-solid-success alert-dismissible fade show" role="alert"
+                        style="position: absolute;top: 10%;left: 50%;transform: translate(-50%,-50%)">
+                        {{success}}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    {{/if}}
+                    <form action="/admin/settings" method="post">
+                        <div class="row">
+                            <div class="col-lg-4 col-12 mb-20">
+
+                                <h6 class="mb-15">عمومی</h6>
+
+                                <div class="row mbn-15">
+                                    <div class="col-12 mb-15">
+                                        <input type="text" class="form-control" name="page_title"
+                                            placeholder="عنوان وب سایت" value="{{settings.page_title}}">
+                                    </div>
+                                    <div class="col-12 mb-15">
+                                        <textarea class="form-control" name="page_description"
+                                            placeholder="توضیحات وب سایت">{{settings.page_description}}</textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12 mb-20">
+                                <h6 class="mb-15">محتوا</h6>
+                                <div class="row mbn-15">
+                                    <div class="col-12 mb-15">
+                                        <input type="number" class="form-control" name="content" value="{{settings.content}}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-12 mb-20">
+                                <h6 class="mb-15">عضویت</h6>
+                                <div class="adomx-checkbox-radio-group mt-5">
+                                    <label class="adomx-checkbox">
+                                        <input type="checkbox" name="can_register" {{#isChecked settings.can_register}}{{/isChecked}}>
+                                        <i class="icon"></i>
+                                        هر کسی می توانند ثبت نام کنند
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="button button-primary mt-4">
+                            <span>ذخیره سازی</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

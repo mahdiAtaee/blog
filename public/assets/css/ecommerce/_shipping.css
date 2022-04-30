@@ -1,0 +1,34 @@
+.alignment-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shipping-items {
+    background: #efefef;
+    padding:4px;
+    height: 80px;
+}
+
+.shipping-items p {
+    font-size: 13px;
+    padding: 10px;
+    margin: 0;
+    text-align: right;
+}
+.shipping-items svg{
+    color: #ff0000;
+    font-size: 21px;
+}
+@media (min-width: 992px) {
+
+    .custom-offset-lg-1 {
+        margin-right: 8.333333%;
+    }
+}
+@media (max-width: 768px) {
+
+    .shipping-items{
+        height: 50px;
+    }
+}

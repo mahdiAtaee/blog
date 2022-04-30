@@ -1,0 +1,117 @@
+.product-text-wrapper {
+    text-align: right;
+    border-right: 1px solid #e3e1e1;
+    padding: 1rem;
+}
+
+.product-text p {
+    width: 100%;
+    font-size: 1.1rem;
+    color: #5c5a5a;
+    padding: 0.2rem 0;
+    margin: 0;
+}
+
+.product-rating {
+    font-size: 0.8rem;
+    color: gold;
+    margin: 0.4rem 0;
+}
+
+.product-header-wrapper {
+    margin: 0;
+    padding: 0.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-offer-price s {
+    font-size: 0.9rem;
+    color: rgb(243, 58, 58);
+    margin-left: 0.5rem;
+}
+
+.product-description p {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.product-header-wrapper p {
+    flex: 1;
+}
+
+.product-header-wrapper .fa-heart {
+    color: red;
+}
+
+.product-header-wrapper span {
+    cursor: pointer;
+}
+
+.product-rating a {
+    color: #555;
+    margin-right: 0.7rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-order p {
+    font-size: 0.6rem;
+    margin-left: 0.3rem;
+}
+
+.brand-name {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+}
+
+.body-buy ul li {
+    list-style: url(../images/dot-circle-regular.svg);
+}
+
+.body-buy ul li a {
+    color: #444;
+    font-size: 0.8rem;
+    margin: 0.8rem 0;
+    text-decoration: none;
+}
+
+.title {
+    margin: 1rem 1.5rem;
+}
+
+.footer-buy {
+    display: flex;
+    align-items: center;
+}
+.footer-buy .item-wrapper{
+    display: flex;
+    align-items: center;
+}
+.footer-buy .item-wrapper label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0 0 0 0.4rem;
+}
+
+.footer-buy .item-wrapper input {
+    width: 60px;
+    height: 100%;
+}
+
+.footer-buy button#cart {
+    border: 1px solid green;
+    padding: 0.3rem 0.7rem;
+    margin-right: 2rem;
+    background: #21a521;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}

@@ -1,0 +1,230 @@
+.footer-head h4 {
+    font-size: 2rem;
+    font-family: var(--text-title);
+}
+
+.footer-head h4 span {
+    color: var(--purple);
+}
+
+.footer-body .describe {
+    width: 40vw;
+    font-size: 0.8rem;
+    font-family: var(--text-font);
+    color: var(--text-color);
+}
+
+.footer-title {
+    color: var(--black);
+}
+
+.news-letter svg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(10px, -50%);
+}
+
+.email {
+    font-size: 0.8rem;
+    min-width: 30vw;
+    max-width: 40vw;
+    padding: 0.6rem 1rem;
+}
+
+input.email::placeholder {
+    padding-left: 30px;
+    font-size: 0.8rem;
+}
+
+
+.email:focus~svg {
+    opacity: 0;
+}
+
+.download-application {
+    width: 30vw;
+    font-size: 0.8rem;
+    color: var(--text-color);
+    font-family: var(--text-font);
+
+}
+
+.download-application .download {
+    margin-left: 2rem;
+    text-decoration: underline;
+    color: var(--black);
+}
+
+img.barcode {
+    width: 100px;
+}
+
+.download-application img.android,
+.download-application img.ios {
+    width: 25px;
+    margin-top: 1rem;
+}
+
+.download-application img.android {
+    margin-top: 1.7rem;
+}
+
+.download-text {
+    padding-left: 1rem;
+}
+
+.download-text p {
+    margin: 0;
+}
+
+.footer-section-links {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 4rem;
+    z-index: 2;
+}
+
+.index-2 {
+    z-index: 2;
+}
+
+.soical-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+
+.footer-link a {
+    font-size: 0.8rem;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    display: block;
+}
+
+.logo {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.footer-background img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.yellow-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.section_four {
+    position: relative;
+    z-index: 3;
+}
+
+body.dark .soical-media img,
+body.dark img.barcode,
+body.dark .download-application img.android,
+body.dark .download-application img.ios{
+    filter: invert(1);
+}
+
+@media screen and (max-width:768px) {
+    .footer-background img {
+        height: 500px;
+    }
+
+    .download-application {
+        width: 70vw;
+    }
+
+    .body-section-two .card {
+        width: 80px !important;
+        height: 115px !important;
+        font-size: 0.7rem;
+    }
+
+    .footer-body .describe {
+        width: 50vw;
+    }
+
+    .email {
+        margin: 0.3rem 0.4rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    .header-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-title h1 span {
+        font-size: 2rem;
+    }
+
+    .persons img {
+        width: 70px;
+    }
+
+    .persons .person {
+        top: 30%;
+    }
+
+    .persons img.person3 {
+        width: 100px !important;
+        top: -10% !important;
+    }
+
+    .header-title {
+        margin-top: 4rem;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    .news-letter {
+        display: inline-flex;
+        margin-right: 0.5rem;
+    }
+
+    .download-application {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .section_four {
+        position: relative;
+        z-index: 3;
+    }
+
+    .footer-background img {
+        height: 500px;
+    }
+
+    .download-application {
+        width: 100vw;
+    }
+
+    .btn,
+    .btn-black,
+    .btn-transparent,
+    .btn-white {
+        font-size: 0.7rem;
+    }
+
+    .persons img {
+        width: 60px;
+    }
+
+    .download-application {
+        width: 70vw;
+    }
+
+}

@@ -1,0 +1,107 @@
+.header-section-two h5 {
+    font-size: 1.7rem;
+    font-family: var(--text-title);
+}
+
+.header-section-two h5 span {
+    color: var(--purple);
+}
+
+.header-section-two p {
+    font-size: 0.8rem;
+    font-family: var(--text-font);
+}
+
+.body-section-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    font-family: var(--text-title);
+    box-shadow: 3px 3px 9px 5px rgb(0 0 0 / 20%);
+}
+
+.card h5{
+    font-size: 1.7rem;
+}
+
+.card p{
+    margin-bottom: 0;
+}
+
+.card.card-black {
+    color: var(--white) !important;
+    background: var(--black);
+}
+
+.card.card-black h5,.card.card-black p{
+    color: var(--white) !important;
+}
+
+.card.card-white h5{
+    color: var(--tomato);
+}
+
+.card.card-white p{
+    color: #000;
+}
+
+.center-self{
+    align-self: flex-end;
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.btn:hover{
+    color: var(--black);
+}
+
+.back-2{
+    z-index: 1;
+    position: absolute;
+}
+
+.moblie-two{
+    z-index: 5;
+    position: relative;
+}
+
+.moveAnimation{
+    animation: move 3s linear infinite;
+}
+
+.moveAnimation1{
+    animation: move 4s linear 0.5s infinite;
+}
+
+.moveAnimation2{
+    animation: move 5s ease-in-out 1.5s infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(1rem);
+    }
+    50%{
+        transform: translateY(-1rem);
+    }
+    75%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(1rem);
+    }
+}

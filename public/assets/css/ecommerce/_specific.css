@@ -1,0 +1,57 @@
+.specific-title{
+    margin: 2rem 0;
+    padding: 0;
+    color: #5e5e5e;
+}
+
+.specific-divider{
+    display: flex;
+    align-items: center;
+}
+
+.specific-divider p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.specific-divider p.key{
+    flex: 0 0 20%;
+    background: #f7f6f6;
+    margin-left: 1rem;
+    padding: 1.2rem 1rem;
+}
+
+
+.specific-divider p.value{
+    flex: 0 0 78%;
+    background: #f7f6f6;
+    padding: 1.2rem 1rem;
+}
+
+.specific-body-title{
+    font-size: 1rem;
+    color: #686767;
+    background: #efefef;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.specific-body-title p{
+    margin: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.specific-body-title h5{
+    margin: 0;
+}
+
+.specific-body ul{
+    padding: 0;
+}
+
+.specific-body ul li{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}

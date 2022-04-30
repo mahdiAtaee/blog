@@ -1,0 +1,97 @@
+.main-container{
+    position: fixed;
+    bottom: -50px;
+    right: -60px;
+    display: inline-block;
+    z-index: 10000;
+}
+.circle-container{
+    width: 0;
+    height: 0;
+    border-radius:50% ;
+    background: rgb(255, 68, 0);
+    position: fixed;
+    bottom: -50px;
+    right: -60px;
+    z-index: 1000;
+    transition: 0.8s ease;
+}
+.main-container .fa-plus{
+    background: rgb(250, 155, 12);
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 60px;
+    right: 70px;
+    padding: 10px;
+    z-index: 10000;
+    transition:transform 0.5s ease;
+}
+
+.circle-container .items svg.fa-user{
+    background: rgb(250, 155, 12);
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 60px;
+    right: 70px;
+    padding: 10px;
+    transform: translate(0,0);
+    transition:transform 0.5s ease;
+}
+.circle-container .items svg.fa-moon{
+    background: rgb(250, 155, 12);
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 60px;
+    right: 70px;
+    padding: 10px;
+    transform: translate(0,0);
+    transition:transform 0.5s ease;
+}
+.circle-container .items svg.fa-envelope{
+    background: rgb(250, 155, 12);
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 60px;
+    right: 70px;
+    padding: 10px;
+    transform: translate(0,0);
+    transition:transform 0.5s ease;
+}
+
+.circle-container.open{
+    width: 200px;
+    height: 200px;
+}
+
+#add.active svg.fa-plus{
+    transform: rotate(138deg);
+}
+
+.circle-container .items.active svg.fa-envelope{
+    transform: translate(-75px,0);
+    transition-delay: 0.3s;
+}
+.circle-container .items.active svg.fa-moon{
+    transform: translate(0,-85px);
+    transition-delay: 0.3s;
+}
+.circle-container .items.active svg.fa-user{
+    transform: translate(-60px,-65px);
+    transition-delay: 0.3s;
+}

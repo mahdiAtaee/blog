@@ -1,0 +1,89 @@
+.inputs-wrapper {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.inputs-wrapper label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.inputs-wrapper input {
+    border: 1px solid #555;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.inputs-wrapper .fa-check-circle {
+    visibility: hidden;
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    color: #3cbe1b !important;
+    z-index: 6;
+}
+
+.inputs-wrapper .fa-check-circle path {
+    color: #3cbe1b;
+}
+
+.inputs-wrapper.success .fa-check-circle {
+    visibility: visible;
+}
+
+.inputs-wrapper .fa-exclamation-circle {
+    visibility: hidden;
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    z-index: 6;
+}
+
+.inputs-wrapper .fa-exclamation-circle path {
+    color: red;
+}
+
+.inputs-wrapper.error .fa-exclamation-circle {
+    visibility: visible;
+}
+
+.inputs-wrapper small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #ff0000;
+}
+
+.inputs-wrapper.error small {
+    visibility: visible;
+}
+
+.inputs-wrapper.success small {
+    visibility: hidden;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: #1b75be;
+    border-radius: 5px;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+.inputs-wrapper.success input {
+    border: 1px solid #3cbe1b !important;
+}
+
+.inputs-wrapper.error input {
+    border: 1px solid red !important;
+}
